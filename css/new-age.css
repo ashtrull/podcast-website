@@ -117,19 +117,14 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: black;
-  background: url("../img/web-concept.jpg"), #7b4397;
-  background: url("../img/web-concept.jpg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/web-concept.jpg"), linear-gradient(to left, #7b4397, #dc2430);
-  background-size: cover;
-  }
+  color: white;
+  background: url("../img/web-concept.jpg"), #a0ae21;
+  background: url("../img/web-concept.jpg"), -webkit-linear-gradient(to left, #a0ae21, #651500);
+  background: url("../img/web-concept.jpg"), linear-gradient(to left, #a0ae21, #651500); }
   header.masthead .header-content {
     max-width: 500px;
-    margin: 10px;
-    text-align: center;
-    padding: 45px 10px 5px 15px;
-    background: rgba(255, 255, 255, 0.4);
-  }
+    margin-bottom: 100px;
+    text-align: center; }
     header.masthead .header-content h1 {
       font-size: 30px; }
   header.masthead .device-container {
@@ -201,15 +196,15 @@ section.features .feature-item {
     font-size: 80px;
     display: block;
     margin-bottom: 15px;
-    background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: linear-gradient(to left, #7b4397, #dc2430);
+    background: -webkit-linear-gradient(to left, #a0ae21, #651500);
+    background: linear-gradient(to left, #a0ae21, #651500);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/venture.jpg");
+  background-image: url("../img/bg-cta.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,7 +215,7 @@ section.cta {
     z-index: 1; }
     section.cta .cta-content h2 {
       font-size: 50px;
-      max-width: 600px;
+      max-width: 450px;
       margin-top: 0;
       margin-bottom: 25px;
       color: white; }
@@ -295,7 +290,7 @@ footer {
 
 .btn-outline {
   color: white;
-  border: 3px solid;
+  border: 1px solid;
   border-color: white; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
@@ -305,10 +300,7 @@ footer {
 .btn {
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 48px;
   letter-spacing: 2px;
-  margin-left: 100px;
-  margin-top: 40px;
   text-transform: uppercase; }
 
 .btn-xl {
