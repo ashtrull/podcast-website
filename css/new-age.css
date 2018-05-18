@@ -346,3 +346,11 @@ footer {
   justify-content:space-between;
   flex-wrap: wrap;
 }
+
+.white {
+  color: white;
+}
+
+#navbar-logo {
+  height: 120px;
+}
