@@ -234,13 +234,24 @@ section.cta {
 
 section.our-team {
   position: relative;
-  padding: 250px 0;
-  background-image: url("../img/venture.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  padding: 0 0;
+  }
+  section.our-team .our-team-header {
+    background-image: url("../img/venture.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    padding: 50px 50px;
+    width: 100%
+  }
+
+  section.our-team .our-team-header h1 {
+    font-size: 80px;
+  }
+
   section.our-team .team-content {
     position: relative;
     z-index: 1; }
