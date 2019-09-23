@@ -284,31 +284,9 @@ section.contact {
     margin: auto;
     width: 60%
   }
-     section.contact ul.list-social li a {
-      line-height: 60px;
-      display: block;
-    }
-    section.contact ul.list-social li.social-itunes a {
-      background-color: #fff;
-    }
-    section.contact ul.list-social li.social-itunes a:hover {
-        background-color: #000;
-      }
-    section.contact ul.list-social li.social-medium a {
-      background-color: #fff;
-      border-radius: 50%;
-    }
-      section.contact ul.list-social li.social-medium a:hover {
-        background-color: #000; }
-    section.contact ul.list-social li.social-stitcher a {
-      background-color: #fff;
-      border-radius: 50%;
-    }
-      section.contact ul.list-social li.social-stitcher a:hover {
-        background-color: #000; }
 
 .social-icon {
-  height: 60px;
+  width: 200px;
   margin: 8px;
 }
 
