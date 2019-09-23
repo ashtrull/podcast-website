@@ -1,6 +1,15 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  $(document).ready(function() {
+    $(".container").load("home.html");\
+  });
+  $("ul.navbar-nav li").each(function() {
+    $(this).on("click", function{
+        $(".container").load(($this).attr("data-page") + ".html");
+    });
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -38,5 +47,7 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+
 
 })(jQuery); // End of use strict

@@ -56,7 +56,8 @@ section {
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
   #mainNav .navbar-brand {
     color: #fdcc52;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -69,9 +70,10 @@ section {
     padding: 8px 10px;
     color: #222222; }
   #mainNav .navbar-nav > li > a {
-    font-size: 11px;
+    font-size: 16px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
+    margin-left: 10px;
     text-transform: uppercase; }
     #mainNav .navbar-nav > li > a.active {
       color: #fdcc52 !important;
@@ -125,6 +127,7 @@ header.masthead {
     color: black;
     max-width: 500px;
     margin-bottom: 100px;
+    margin-top: 80px;
     text-align: center; }
     header.masthead .header-content h1 {
       font-size: 30px; }
@@ -234,7 +237,7 @@ section.cta {
 
 section.our-team {
   position: relative;
-  padding: 0 0;
+  padding: 100px 0;
   }
   section.our-team .our-team-header {
     background-image: url("../img/venture.jpg");
@@ -250,6 +253,15 @@ section.our-team {
 
   section.our-team .our-team-header h1 {
     font-size: 80px;
+  }
+
+  section.our-team .bio-photo {
+    height: 300px;
+    margin: 20px 0;
+  }
+
+  section.our-team .team-bio {
+    padding-top: 20px;
   }
 
   section.our-team .team-content {
@@ -275,7 +287,6 @@ section.contact {
      section.contact ul.list-social li a {
       line-height: 60px;
       display: block;
-      color: white;
     }
     section.contact ul.list-social li.social-itunes a {
       background-color: #fff;
